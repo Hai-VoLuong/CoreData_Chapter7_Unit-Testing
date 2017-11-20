@@ -25,7 +25,9 @@
 		93CF1D9D19A23F01003FBB14 /* CampSiteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CF1D9C19A23F01003FBB14 /* CampSiteService.swift */; };
 		93DC421B19A6D4E900D015A8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DC421A19A6D4E900D015A8 /* CoreDataStack.swift */; };
 		9C5BBC131FBE842E00B61AE3 /* CamperServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BBC121FBE842E00B61AE3 /* CamperServiceTests.swift */; };
+		9CDDB5CD1FC27F140010D947 /* ReservationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDDB5CC1FC27F140010D947 /* ReservationServiceTests.swift */; };
 		9CF8B4821FBEBEE900221D2A /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BBC0F1FBE7CF300B61AE3 /* TestCoreDataStack.swift */; };
+		9CF8B4851FBEF1B100221D2A /* CampSiteServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B4841FBEF1B100221D2A /* CampSiteServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		93DC421A19A6D4E900D015A8 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		9C5BBC0F1FBE7CF300B61AE3 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCoreDataStack.swift; path = CampgroundManagerTests/TestCoreDataStack.swift; sourceTree = SOURCE_ROOT; };
 		9C5BBC121FBE842E00B61AE3 /* CamperServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamperServiceTests.swift; sourceTree = "<group>"; };
+		9CDDB5CC1FC27F140010D947 /* ReservationServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationServiceTests.swift; sourceTree = "<group>"; };
+		9CF8B4841FBEF1B100221D2A /* CampSiteServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampSiteServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			children = (
 				9C5BBC0F1FBE7CF300B61AE3 /* TestCoreDataStack.swift */,
 				9C5BBC121FBE842E00B61AE3 /* CamperServiceTests.swift */,
+				9CF8B4841FBEF1B100221D2A /* CampSiteServiceTests.swift */,
+				9CDDB5CC1FC27F140010D947 /* ReservationServiceTests.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -305,6 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C5BBC131FBE842E00B61AE3 /* CamperServiceTests.swift in Sources */,
+				9CDDB5CD1FC27F140010D947 /* ReservationServiceTests.swift in Sources */,
+				9CF8B4851FBEF1B100221D2A /* CampSiteServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
